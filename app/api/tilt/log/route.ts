@@ -15,7 +15,8 @@ function toGvizUrl(url: string) {
 
 // Parse Google Sheets gviz JSON
 function parseGviz(text: string) {
-  const match = text.match(/google\.visualization\.Query\.setResponse\((.*)\);/s);
+  const match = text.match(/google\.visualization\.Query\.setResponse\(([\s\S]*)\);/);
+
   if (!match) return null;
 
   const json = JSON.parse(match[1]);
