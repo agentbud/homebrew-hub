@@ -41,6 +41,14 @@ const calculators = [
     href: "/calculators/srm",
     description: "Convert MCU to SRM using the Morey equation.",
   },
+
+  // ⭐ NEW ENTRY ADDED HERE
+  {
+    name: "Yeast Viability",
+    href: "/calculators/yeast-viability",
+    description: "Estimate viability based on age and storage conditions.",
+  },
+
   {
     name: "Yeast Pitch Rate",
     href: "/calculators/pitch-rate",

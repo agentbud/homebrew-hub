@@ -29,27 +29,47 @@ export default function ToolsPage() {
       href: "/tools/fermentation-tracker",
       description: "Track gravity, temperature, and fermentation progress.",
     },
+
+    // ⭐ UPDATED ROUTE
     {
       name: "Brew Day Timer",
-      href: "/tools/brew-timer",
+      href: "/tools/brew-day-timer",
       description: "Step-by-step timers for mash, boil, and hop additions.",
     },
+
     {
       name: "BJCP Style Browser",
       href: "/tools/bjcp",
       description: "Browse beer styles with guidelines and targets.",
     },
+
+    // ⭐ NEW TOOLS ADDED
+    {
+      name: "BJCP Style Compare",
+      href: "/tools/bjcp-compare",
+      description: "Compare two BJCP styles side-by-side.",
+    },
+    {
+      name: "Style Analyzer",
+      href: "/tools/style-analyzer",
+      description: "Analyze beer stats and match to BJCP styles.",
+    },
+    {
+      name: "Carbonation Calculator",
+      href: "/tools/carbonation",
+      description: "Force carbonation calculator for kegs and draft systems.",
+    },
   ];
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
-    <Link
+      <Link
         href="/"
         className="text-sm text-amber hover:underline dark:text-amber-light"
       >
         ← Home
       </Link>
-      
+
       <h1 className="text-3xl font-bold text-malt-dark dark:text-foreground">
         Brewing Tools
       </h1>
