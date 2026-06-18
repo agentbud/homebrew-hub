@@ -72,7 +72,7 @@ export default function Home() {
   </p>
 
   <h1 className="text-4xl font-bold tracking-tight text-malt-dark sm:text-5xl dark:text-foreground">
-    Your homebrew companion
+    Your Homebrew Companion
   </h1>
 
   <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-malt/80 dark:text-zinc-400">

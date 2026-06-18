@@ -10,6 +10,11 @@ export default function ToolsPage() {
       description: "Build full recipes with grains, hops, and estimates.",
     },
     {
+      name: "Tilt Hydrometer Reader",
+      href: "/tools/tilt-reader",
+      description: "Paste your Tilt Cloud link and view all readings.",
+    },
+    {
       name: "Hop Schedule Builder",
       href: "/tools/hop-schedule",
       description: "Design hop additions with timing and IBU estimates.",
@@ -38,6 +43,13 @@ export default function ToolsPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-16">
+    <Link
+        href="/"
+        className="text-sm text-amber hover:underline dark:text-amber-light"
+      >
+        ← Home
+      </Link>
+      
       <h1 className="text-3xl font-bold text-malt-dark dark:text-foreground">
         Brewing Tools
       </h1>

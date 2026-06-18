@@ -83,10 +83,9 @@ const calculators = [
   },
 ];
 
-
 export default function CalculatorsPage() {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16">
+    <div className="mx-auto max-w-5xl px-6 py-16">
       <Link
         href="/"
         className="text-sm text-amber hover:underline dark:text-amber-light"
@@ -102,23 +101,22 @@ export default function CalculatorsPage() {
         Pick a tool to get started.
       </p>
 
-      <ul className="mt-10 space-y-4">
+      <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {calculators.map((calc) => (
-          <li key={calc.href}>
-            <Link
-              href={calc.href}
-              className="block rounded-xl border border-malt/10 p-5 transition-colors hover:border-amber dark:border-white/10"
-            >
-              <span className="font-semibold text-malt-dark dark:text-foreground">
-                {calc.name}
-              </span>
-              <p className="mt-1 text-sm text-malt/70 dark:text-zinc-400">
-                {calc.description}
-              </p>
-            </Link>
-          </li>
+          <Link
+            key={calc.href}
+            href={calc.href}
+            className="rounded-lg border border-malt/20 bg-white p-5 shadow-sm transition hover:shadow-md dark:bg-zinc-900"
+          >
+            <h2 className="text-lg font-semibold text-malt-dark dark:text-foreground">
+              {calc.name}
+            </h2>
+            <p className="mt-1 text-sm text-malt/70 dark:text-zinc-400">
+              {calc.description}
+            </p>
+          </Link>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
