@@ -13,12 +13,7 @@ export default function RecipeIntelligencePage() {
       name: "Recipe Optimizer",
       href: "/recipe-intelligence/recipe-optimizer",
       description: "Improve mash temp, hop balance, yeast choice, and water profile.",
-    },
-    {
-      name: "Style Compliance Score",
-      href: "/recipe-intelligence/style-score",
-      description: "See how closely your recipe matches BJCP style guidelines.",
-    },
+    }
   ];
 
   return (

@@ -29,21 +29,21 @@ export default function ToolsPage() {
       href: "/tools/fermentation-tracker",
       description: "Track gravity, temperature, and fermentation progress.",
     },
-
-    // ⭐ UPDATED ROUTE
     {
       name: "Brew Day Timer",
       href: "/tools/brew-day-timer",
       description: "Step-by-step timers for mash, boil, and hop additions.",
     },
-
+    {
+      name: "Brew Timer",
+      href: "/tools/brew-timer",
+      description: "Create your own brew timers.",
+    },
     {
       name: "BJCP Style Browser",
       href: "/tools/bjcp",
       description: "Browse beer styles with guidelines and targets.",
     },
-
-    // ⭐ NEW TOOLS ADDED
     {
       name: "BJCP Style Compare",
       href: "/tools/bjcp-compare",
