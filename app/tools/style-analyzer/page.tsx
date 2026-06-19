@@ -157,7 +157,7 @@ export default function StyleAnalyzer() {
       </h1>
 
       <p className="mt-2 text-malt/80 dark:text-zinc-400">
-        Enter your beer’s stats to find the closest BJCP style match.
+        Enter your beer’s stats to find the closest BJCP style match. Not all styles will be included since some styles state 'varies' for the stats instead of actual numbers.
       </p>
 
       <div className="mt-10 grid grid-cols-1 gap-4 md:grid-cols-2">
